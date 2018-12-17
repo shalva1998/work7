@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+header {
+	padding: 30px 100px;
+}
+#logo{
+	display: inline-block;
+	float: left;
+	width: 200px;
+}
+nav {
+	display: inline-block;
+}
+li{
+	display: inline-block;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+li a {
+	color: #3D58A6;
+	font-size: 30px;
+	font-family: 'BPG Ingiri Arial';
+}
+#search {
+	display: inline-block;
+	float: right;
+	width: 40px;
+	margin-right: 120px;
+	padding-top: 10px;
+}
+.about-color{
+	color: #3d58a67d;
+}
+#red-section {
+	background: #EE4036;
+}
+#red-section h1 {
+	padding: 30px 100px;
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: 'BPG Ingiri Arial';
+}
+.main-container {
+	padding: 110px 100px;
+}
+#services {
+	display: flex;
+	justify-content: space-between;
+}
+#services a {
+	width: 20%;
+	transition: width 0.5s;
+}
+#services h2 {
+	color: #EE4036;
+	font-size: 25px;
+	font-family: 'BPG Ingiri Arial';
+	margin: 13px 0px;
+}
+#services p {
+	font-size: 20px;
+	font-family: 'BPG LE Studio 02 Caps';
+}
+#services a:hover {
+	width: 30%;
+	transition: width 0.5s;
+}
+.img-services {
+	border: 2px solid #EE4036;
+}
+	
